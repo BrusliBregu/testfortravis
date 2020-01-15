@@ -3,9 +3,8 @@ python:
   - "3.7"
 # command to install dependencies
 install:
-  - pip install requests numpy matplotlib pyyaml pytest pytest-cov doctest
+  - pip install requests numpy matplotlib pyyaml pytest pytest-cov
 # command to run tests
 script:
-  - pytest --cov=.\
-  - doctest
+  - pytest y--cov=.\
 
