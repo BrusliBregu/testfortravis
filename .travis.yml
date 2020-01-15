@@ -6,7 +6,7 @@ install:
   - pip install requests numpy matplotlib pyyaml pytest pytest-cov
 # command to run tests
 script:
-  - pytest "python -m doctest C:\Users\Brusli\Desktop\testfortravis\__init__.py"
+  - pytest
 
 
 
