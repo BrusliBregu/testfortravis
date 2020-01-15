@@ -6,5 +6,6 @@ install:
   - pip install requests numpy matplotlib pyyaml pytest pytest-cov
 # command to run tests
 script:
-  - pytest --cov --doctest-module
+  - pytest --cov=.\
+  - doctest
 
