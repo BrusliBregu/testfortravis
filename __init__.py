@@ -1,7 +1,6 @@
 import numpy as np
 
-def square(x):
-	x**2 + 2*x 
-	return(x)
+def square(x): 
+	return(x**2 + 2*x)
 
 square(2)
